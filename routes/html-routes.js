@@ -10,5 +10,8 @@ router.get('/notes', (req, res) => {
   // Your code
 });
 
-
+router.get ("*", (requires) =>{ 
+    res.sendFile(path.join(__dirname, '../public/index.html'))
+    });
+    
 module.exports = router;
