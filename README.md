@@ -26,27 +26,27 @@ Create an application that uses Express.js on the back end by saving and retriev
 ## User Story
 
 ```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
+AS A small business owner
+I WANT to be able to write and save notes
+SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
 
 ## Acceptance Criteria
 
 ```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
+GIVEN a note-taking application
+WHEN I open the Note Taker
+THEN I am presented with a landing page with a link to a notes page
+WHEN I click on the link to the notes page
+THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
+WHEN I enter a new note title and the note’s text
+THEN a Save icon appears in the navigation at the top of the page
+WHEN I click on the Save icon
+THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
+WHEN I click on an existing note in the list in the left-hand column
+THEN that note appears in the right-hand column
+WHEN I click on the Write icon in the navigation at the top of the page
+THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
 ## GIF:
 ### Figure .1 GIF
@@ -55,12 +55,12 @@ The following animation demonstrates the application functionality:
 ![A user clicks on slots on the color-coded calendar and edits the events.](/assets/images/gif.GIF)
 
 ## Usage Instructions
-1. Open the document on your local device at the beginning of your day - you'll enter scheduled events/reminders into the planner to keep tracked.
-2. Scroll down to see the timeblocks for the current day.
-3. Click on the timeblocks type to edit the events.
-4. Click the save button (on the right) to save the event.
-5. Refresh the page to see the changes.
-6. Events not saved in timeblocks before refresh won't be tracked locally.
+1. Click here to open the [Deployed Application Link:](https://e-js-note.herokuapp.com/)
+2. Click "Get Started" to open the note taker.
+3. Enter text into the 'title' and 'text' fields 
+4. Click the save icon (top right) to save the note.
+5. Click the + icon (top right) to add another note.
+6. Additional: Click the trash icon to delete saved notes.
 
 ## Deployed Application Link:
 [Deployed Application Link:](https://e-js-note.herokuapp.com/)
@@ -74,24 +74,28 @@ The following animation demonstrates the application functionality:
 
 ## Installation Process
 1. Clone the Repository from GitHub 
-2. (or) Download Zip Folder from Repository from GitHub 
+2. (or) Download Zip Folder from Repository from GitHub
+3. Open the cloned (or downloaded) repository in any source code editor.
+4. Open the integrated terminal for the document and complete the respective installation guides provided in "Built With" to ensure the cloned documentation will operate.
 
 ## Built With
 - Saiyan Pride
 - JSON:[ JSON](https://www.npmjs.com/package/json)
 - Heroku:[ Heroku ](https://www.heroku.com/)
 - Dynamic JavaScript
+- Node.js [Version 16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
 - Express.js:[Express.js](https://expressjs.com/en/starter/installing.html)
-- Object Oriented Porgramming:[ Object Oriented Programming (OOP)](https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/)
 - License Badge: [Shields.io](https://shields.io/)
 - Visual Studio Code: [Website](https://code.visualstudio.com/)
 
 ## What I Learned
-- I learned how create api routes and html routes
+- I learned how create api routes and html routes.
+- I learned direct deployment to Heroku from the intergrated terminals command line interface.
 
 ### Continued Development:
-1. Create progressive design with text alignment options.
-2. Change scheduler time frame into a 24 hour time slot - thereby, meeting overall consumer demands of a multifacited society.
+1. Complete the bonus - thereby, adding a delete note option.
+2. Create intergration of this note taker into future projects.
+3. Learn more Express development.
 
 ## License & Copyright ©
   
@@ -122,6 +126,6 @@ SOFTWARE.
 
 Follow me on Github at [ThomasCalle](https://github.com/ThomasCalle)! Additional questions or concerns? feel free to contact me at thomas.calle@outlook.com.
 
-See you soon!
+Until next, adios!
 
 © 2023 [ThomasCalle](https://github.com/ThomasCalle). Confidential and Proprietary. All Rights Reserved.

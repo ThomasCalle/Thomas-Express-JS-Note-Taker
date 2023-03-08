@@ -16,6 +16,17 @@ fs.writeFileSync("db/db.json",JSON.stringify(dbJson));
 res.json(dbJson)
 });
 
+// fix this API DELETE request
+router.delete("/notes/:id" , (req, res) => {
+    let data = fs.readFileSync("./app/data/db.json", "utf8")
+    const dataJSON =  JSON.parse(data);
+    const newNotes = dataJSON.filter((note) => { 
+        return note.id !== req.params.id;
+        });
+    updateDb(params, notes);
+    res.redirect('');
+  });
+  
 module.exports = router; 
 
 
