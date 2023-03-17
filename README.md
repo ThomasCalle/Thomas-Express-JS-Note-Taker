@@ -66,7 +66,7 @@ The following animation demonstrates the application functionality:
 [Deployed Application Link:](https://e-js-note.herokuapp.com/)
 
 ## YouTube Walkthrough Video:
-[Click Here to Watch](https://www.youtube.com/watch?v=sm6py49QNto)
+[Click Here to Watch](https://youtu.be/DGMdgWCDgFM)
 
 ## Screenshots:
 ### Figure 1. Screenshot
@@ -93,8 +93,8 @@ The following animation demonstrates the application functionality:
 - I learned direct deployment to Heroku from the intergrated terminals command line interface.
 
 ### Continued Development:
-1. Complete the bonus - thereby, adding a delete note option.
-2. Create intergration of this note taker into future projects.
+1. Creating further options such as bookmarks, pinned notes, and chapters.
+2. Create intergration of this note taker into future deployed applications
 3. Learn more Express development.
 
 ## License & Copyright ©
