@@ -52,7 +52,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ### Figure .1 GIF
 
 The following animation demonstrates the application functionality:
-![A user clicks on slots on the color-coded calendar and edits the events.](/assets/images/gif.GIF)
+![A user clicks on slots on the color-coded calendar and edits the events.](/public/assets/images/Express-JS-Note-Taker.GIF)
 
 ## Usage Instructions
 1. Click here to open the [Deployed Application Link:](https://e-js-note.herokuapp.com/)
@@ -66,11 +66,11 @@ The following animation demonstrates the application functionality:
 [Deployed Application Link:](https://e-js-note.herokuapp.com/)
 
 ## YouTube Walkthrough Video:
-[Click Here to Watch](https://youtu.be/DGMdgWCDgFM)
+[Click Here to Watch](https://youtu.be/-UiqzvUe360)
 
 ## Screenshots:
 ### Figure 1. Screenshot
-![](./assets/images/Third-Paarty%20API's%20Work%20Day%20Scheduler.png) 
+![](/public/assets/images/Screenshot.png) 
 
 ## Installation Process
 1. Clone the Repository from GitHub 
