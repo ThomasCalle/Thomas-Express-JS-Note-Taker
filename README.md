@@ -66,7 +66,7 @@ The following animation demonstrates the application functionality:
 [Deployed Application Link:](https://e-js-note.herokuapp.com/)
 
 ## YouTube Walkthrough Video:
-[Click Here to Watch](https://youtu.be/-UiqzvUe360)
+[Click Here to Watch](https://www.youtube.com/watch?v=-UiqzvUe360&t=22s)
 
 ## Screenshots:
 ### Figure 1. Screenshot
